@@ -1,6 +1,5 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Temp from '../components/Home/Temp'
 import Footer from '../components/shared/Footer'
 import HamburgerMenu from '../components/shared/HamburgerMenu'
 import Navbar from '../components/shared/Navbar'
@@ -15,7 +14,6 @@ const Layout = () => {
         <Navbar setShow={setShow} />
         <HamburgerMenu show={show} setShow={setShow} />
         <Outlet />
-        <Temp />
         <ToggleSwitch />
         <Footer />
       </div>
