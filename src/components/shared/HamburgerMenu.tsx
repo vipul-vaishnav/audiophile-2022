@@ -36,8 +36,8 @@ const HamburgerMenu = ({ show, setShow }: HamburgerMenuProps) => {
       onClick={(e) => {
         if (e.target === e.currentTarget) setShow(false)
       }}
-      className={`absolute transition-all duration-300 left-0 w-full h-full cursor-pointer  lg:hidden ${
-        show ? 'top-0 backdrop-blur-sm' : '-top-full backdrop-blur-0'
+      className={`absolute transition-all duration-300 left-0 w-full h-full cursor-pointer lg:hidden ${
+        show ? 'top-0 backdrop-blur' : '-top-full'
       }`}
     >
       <div className="px-6 py-8 bg-white shadow-2xl cursor-default text-neutral-900 rounded-b-2xl">
