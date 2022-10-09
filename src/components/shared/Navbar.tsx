@@ -26,9 +26,7 @@ const Navbar = () => {
           return (
             <li
               key={uuidv4()}
-              className={`uppercase font-bold tracking-widest transition-all duration-300 ${
-                pathname === el.link ? 'text-orange-500' : ''
-              }`}
+              className={`uppercase font-bold tracking-widest ${pathname === el.link ? 'text-orange-500' : ''}`}
             >
               <Link to={el.link}>{el.title}</Link>
             </li>
