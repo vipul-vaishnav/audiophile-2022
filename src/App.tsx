@@ -1,10 +1,11 @@
 import React from 'react'
-import Layout from './Layout/Layout'
+import { RouterProvider } from 'react-router-dom'
+import router from './routes/router'
 
 const App = () => {
   return (
     <React.Fragment>
-      <Layout />
+      <RouterProvider router={router} />
     </React.Fragment>
   )
 }
