@@ -37,7 +37,7 @@ const HamburgerMenu = ({ show, setShow }: HamburgerMenuProps) => {
         if (e.target === e.currentTarget) setShow(false)
       }}
       className={`absolute transition-all duration-300 left-0 w-full h-full cursor-pointer lg:hidden ${
-        show ? 'top-0 backdrop-blur' : '-top-full'
+        show ? 'top-0 backdrop-blur' : '-top-[120%]'
       }`}
     >
       <div className="px-6 py-8 bg-white shadow-2xl cursor-default text-neutral-900 rounded-b-2xl">
