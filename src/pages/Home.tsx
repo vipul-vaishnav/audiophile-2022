@@ -2,11 +2,18 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className="container px-4 xl:px-0 py-5 lg:py-7 mx-auto max-w-7xl">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum odio doloribus atque earum. Ratione
-      porro aspernatur necessitatibus dolor aperiam, dignissimos rerum nobis distinctio ea quam ex harum consectetur
-      earum iusto et, modi totam magni molestias unde, dolore quo doloremque cupiditate voluptates tempore? Dolor
-      obcaecati incidunt nam voluptas, necessitatibus dolorem eos nulla voluptate? Blanditiis id nihil quibusdam
+    <div className="container px-5 xl:px-0 py-5 lg:py-7 mx-auto max-w-7xl">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla provident officiis nostrum deserunt, maxime magni
+      a similique, dicta quae sunt amet inventore reiciendis quia accusantium facilis consequuntur distinctio. In
+      possimus placeat voluptatibus deserunt autem neque quibusdam quia officia, accusamus distinctio! Ab, dignissimos.
+      Magni explicabo earum atque est accusantium iste mollitia itaque fugiat soluta quod molestiae natus quidem maiores
+      praesentium, voluptas doloremque eaque modi aliquid, magnam dolores voluptatibus ipsam esse. Consequuntur beatae
+      soluta placeat exercitationem architecto est sunt reprehenderit, recusandae labore quisquam? Numquam aliquid
+      debitis eveniet delectus placeat vel tempore id hic molestiae, magni, assumenda et voluptatem laboriosam nihil
+      harum sed? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum odio doloribus atque earum.
+      Ratione porro aspernatur necessitatibus dolor aperiam, dignissimos rerum nobis distinctio ea quam ex harum
+      consectetur earum iusto et, modi totam magni molestias unde, dolore quo doloremque cupiditate voluptates tempore?
+      Dolor obcaecati incidunt nam voluptas, necessitatibus dolorem eos nulla voluptate? Blanditiis id nihil quibusdam
       laudantium fuga hic, laborum quis omnis cum eveniet quaerat recusandae ipsa dolorum consequuntur, soluta, a
       explicabo quas perferendis amet tempora iusto earum vitae non. Pariatur iure voluptatum quasi velit eius
       doloremque distinctio quaerat temporibus odit qui maxime nemo aliquid, architecto ullam blanditiis expedita,
