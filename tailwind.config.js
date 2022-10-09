@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontFamily: {
         default: ['Manrope', 'sans-serif']
+      },
+      screens: {
+        'xs': '476px'
       }
     },
   },

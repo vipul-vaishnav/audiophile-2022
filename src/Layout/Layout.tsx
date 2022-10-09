@@ -6,7 +6,7 @@ import Navbar from '../components/shared/Navbar'
 const Layout = () => {
   return (
     <React.Fragment>
-      <div className="font-default bg-neutral-900 min-h-screen text-white w-full overflow-x-hidden">
+      <div className="font-default bg-neutral-900 min-h-screen text-white w-full overflow-x-hidden text-base font-normal">
         <Navbar />
         <Outlet />
         <Footer />
