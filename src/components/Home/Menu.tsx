@@ -1,5 +1,4 @@
 import React from 'react'
-import Close from '../../icons/Close'
 import { Link } from 'react-router-dom'
 import { v4 as uuidv4 } from 'uuid'
 import Earphones from './../../assets/shared/desktop/image-earphones.png'
@@ -25,27 +24,10 @@ const data = [
   }
 ]
 
-type HamburgerMenuProps = {
-  show: boolean
-  setShow: React.Dispatch<React.SetStateAction<boolean>>
-}
-
-const HamburgerMenu = ({ show, setShow }: HamburgerMenuProps) => {
+const Menu = () => {
   return (
-    <div
-      onClick={(e) => {
-        if (e.target === e.currentTarget) setShow(false)
-      }}
-      className={`absolute z-10 transition-all duration-300 left-0 w-full h-full cursor-pointer lg:hidden ${
-        show ? 'top-0 backdrop-blur' : '-top-[120%]'
-      }`}
-    >
-      <div className="px-6 py-8 bg-white shadow-2xl cursor-default text-neutral-900 rounded-b-2xl">
-        <div className="flex justify-end mb-4">
-          <button onClick={() => setShow(false)}>
-            <Close />
-          </button>
-        </div>
+    <div className="mt-12 py-36">
+      <div className="px-6 py-8 bg-white text-neutral-900 rounded-b-2xl">
         <section className="flex flex-col gap-8 sm:gap-5 space-between sm:flex-row">
           {data.map((item) => {
             return (
@@ -71,4 +53,4 @@ const HamburgerMenu = ({ show, setShow }: HamburgerMenuProps) => {
   )
 }
 
-export default HamburgerMenu
+export default Menu

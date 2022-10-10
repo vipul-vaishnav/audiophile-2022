@@ -5,6 +5,7 @@ import About from '../pages/About'
 import Headphones from './../pages/Headphones'
 import Speakers from '../pages/Speakers'
 import Earphones from './../pages/Earphones'
+import Error from './../pages/Error'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: 'earphones',
         element: <Earphones />
+      },
+      {
+        path: '*',
+        element: <Error />
       }
     ]
   }

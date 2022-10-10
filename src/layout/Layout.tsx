@@ -10,7 +10,7 @@ const Layout = () => {
 
   return (
     <React.Fragment>
-      <div className="relative w-full min-h-screen overflow-x-hidden text-base font-normal text-white font-default bg-neutral-900">
+      <div className="relative w-full min-h-screen overflow-x-hidden text-base font-normal text-white font-default bg-primary">
         <Navbar setShow={setShow} />
         <HamburgerMenu show={show} setShow={setShow} />
         <Outlet />
